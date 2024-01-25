@@ -4,9 +4,90 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>The Landing Page</title>
-        <link rel="stylesheet" href="app.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="app.css" />
 	</head>
 	<body>
-        <h1>hello there</h1>
-    </body>
+		<section class="navbar">
+			<img src="images/guesswhat-logo.png" alt="guesswhat logo" width="260px" />
+			<nav>
+				<li><a href="">Works</a></li>
+				<li><a href="">Blogs</a></li>
+				<li><a href="#cta">Contact Us</a></li>
+			</nav>
+		</section>
+
+		<!-- hero section -->
+		<section class="hero">
+			<div class="container">
+				<div class="left">
+					<h2>Unleash the Power of Intuition with <span>guesswhat!</span></h2>
+					<p>
+						At guesswhat, we believe in the magic of intuition. Our team is dedicated to crafting software solutions
+						that empower you to make decisions with confidence and clarity. We merge cutting-edge technology with a
+						user-friendly interface to create an experience that's both powerful and intuitive.
+					</p>
+					<button id="#cta">Sign Up</button>
+				</div>
+				<div class="right">
+					<img src="images/hero.jpeg" alt="usopp" />
+				</div>
+			</div>
+		</section>
+
+		<!-- works -->
+		<section id="works">
+			<h3>Our Works</h3>
+			<div class="cards">
+				<div class="card">
+					<img src="images/works/1.jpeg" alt="idk" />
+					<p>Cutting-edge tech simplifies complex decisions effortlessly, enhancing your workflow.</p>
+				</div>
+				<div class="card">
+					<img src="images/works/2.jpeg" alt="idk" />
+					<p>Incorporate guesswhat smoothly into your routine for a seamless decision-making experience.</p>
+				</div>
+				<div class="card">
+					<img src="images/works/3.jpeg" alt="idk" />
+					<p>Your data is secured with state-of-the-art encryption, ensuring utmost privacy and confidentiality.</p>
+				</div>
+				<div class="card">
+					<img src="images/works/4.jpeg" alt="idk" />
+					<p>Hear inspiring tales of transformed decision-making confidence from our satisfied users worldwide.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="quote-section">
+			<blockquote cite="#somewhere">
+				<p>
+					"guesswhat has transformed the way I approach decisions. It's like having a trusted advisor at my fingertips.
+					The simplicity of guesswhat is a game-changer. Making decisions has never been this easy!"
+				</p>
+				<cite> -Lazyneedle, Backend Developer</cite>
+			</blockquote>
+		</section>
+
+		<section class="cta-section">
+			<div class="cta">
+				<div class="message">
+					<h4>Join Us on the Journey</h4>
+					<p>
+						Ready to transform the way you make decisions? Join guesswhat today and experience the power of intuition
+						like never before.
+					</p>
+				</div>
+				<button>Sign Up</button>
+			</div>
+		</section>
+
+		<footer>
+			<p>Copyright &copy; GuessWhat Team</p>
+		</footer>
+	</body>
 </html>
